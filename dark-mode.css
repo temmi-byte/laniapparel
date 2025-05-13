@@ -1,0 +1,63 @@
+/* Dark Mode Styles */
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.dark-mode .navbar {
+    background-color: rgba(18, 18, 18, 0.9);
+    color: #ffffff;
+}
+
+.dark-mode .logo {
+    color: #ffffff;
+}
+
+.dark-mode .nav-links a {
+    color: #ffffff;
+}
+
+/* Mobile Menu Background */
+@media (max-width: 768px) {
+    .dark-mode .nav-links {
+        background-color: #1e1e1e !important;
+        border-right: 1px solid rgba(255, 255, 255, 0.1);
+    }
+}
+
+.dark-mode .service-card,
+.dark-mode .booking-form {
+    background-color: #1e1e1e;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.dark-mode .form-group input,
+.dark-mode .form-group select,
+.dark-mode .form-group textarea {
+    background-color: #2d2d2d;
+    border-color: #444;
+    color: #e0e0e0;
+}
+
+.dark-mode .whatsapp-cta {
+    background-color: #2d2d2d;
+}
+
+.dark-mode .about {
+    background-color: #242424;
+    color: rgb(231, 223, 223);
+}
+
+.dark-mode .gallery {
+    background-color: #2b2a2a;
+    color: rgb(231, 223, 223);
+}
+
+.dark-mode .dark-mode-toggle .fa-moon {
+    opacity: 0;
+}
+
+.dark-mode .dark-mode-toggle .fa-sun {
+    opacity: 1;
+    color: #121212;
+}
